@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Roboto:wght@100&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: rgb(54, 54, 54);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 0 20px 0;
+    font-size: 24px;
+    background-color: rgb(26, 26, 26);
+    margin-bottom: 40px;
+    min-height: 20vh;
+}
+
+.logo{
+    height: 130px;
+}
+
+a{
+    color: #ccc
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 60vh;
+}
+
+.main-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    width: 80%;
+    border-radius: 15px;
+}
+
+.left-side{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#titulo{
+    font-family: 'Ms Madi', cursive;
+    font-size: 50px;
+}
+
+.panel-title{
+    margin: 20px 0 20px 0;
+    color: rgb(255, 255, 255);
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 30vw;
+    background-color: rgb(39, 39, 39);
+    border-radius: 15px;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-title{
+    color: #ccc;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.button{
+    height: 80px;
+    width: 240px;
+    border-radius: 20px;
+    background-color: rgb(26, 26, 26);
+    border: none;
+    color: #ccc;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+footer{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 26, 26);
+    min-height: 40vh;
+}
+
+.info{
+    display: flex;
+}
+
+.paragraph{
+    font-family: 'Ms Madi', cursive;
+    color: #ffffff;
+    padding: 20px;
+    font-size: 24px;
+}
+
+img, .info{
+    padding-left:8px;
+}
+
+.img-contato{
+    padding: 18px;
+    border-radius: 30px;
+}
+
+.form-contato{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 40px;
+}
+
+.form-contato, form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.input{
+    height: 24px;
+}
+
+.button2 {
+    height: 80px;
+    width: 240px;
+    border-radius: 20px;
+    background-color: rgb(65, 65, 65);
+    border: none;
+    color: #ccc;
+    font-size: 28px;
+    cursor: pointer;
+    margin-top: 18px;
+}
+
+.button:hover{
+    background-color: rgb(14, 14, 14);
+    transition: all, ease-in-out, 0.3s;
+}
+
+.button2:hover{
+    background-color: rgb(14, 14, 14);
+    transition: all, ease-in-out, 0.3s;
+}
